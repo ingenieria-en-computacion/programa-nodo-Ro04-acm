@@ -1,7 +1,7 @@
 #include "Nodo.h"
 #include <stdio.h>
 #include <stdlib.h>  // Para malloc y free
-
+#include <stdbool.h>
 NODO* Crear_nodo(){
     NODO* nuevo = (NODO*)malloc(sizeof(NODO));
     if (nuevo == NULL) {  // Verificación de si malloc falló
